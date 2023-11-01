@@ -1,0 +1,20 @@
+.
+├── LR
+│   └── 1
+│       ├── LR_Povarnitzin_#1
+│       └── README.md
+├── LR_Povarnitzin_#1
+├── LR_Povarnitzin_#2
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── current_date
+├── dir
+│   └── current_date
+└── link1 -> dir/date
+
+10 directories, 7 files
