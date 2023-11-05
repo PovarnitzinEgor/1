@@ -1,0 +1,10 @@
+proc1:
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 17:50 ?        00:00:00 /init
+root       135     1  0 18:37 tty1     00:00:00 /init
+root       515   136  0 19:55 tty1     00:00:00 sudo -i
+root       516   515  0 19:55 pts/0    00:00:00 sudo -i
+root       517   516  0 19:55 pts/0    00:00:00 -bash
+root       531   517  0 19:55 pts/0    00:00:00 ps -Af
+USER       PID %CPU %MEM    VZS   RSS TTY      STAT START   TIME COMMAND
+admin1     136  0.0  0.0  14380  4084 tty1     S    18:37   0:00 -bash

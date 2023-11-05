@@ -1,0 +1,27 @@
+uptime:
+ 18:21:03 up  1:32,  0 users,  load average: 0.52, 0.58, 0.59
+
+free:
+               total        used        free      shared  buff/cache   available
+Mem:        16724708     6531696     9963660       17720      229352    10059280
+Swap:       30442236       88716    30353520
+
+df -h:
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          233G  171G   62G  74% /
+none            233G  171G   62G  74% /dev
+none            233G  171G   62G  74% /run
+none            233G  171G   62G  74% /run/lock
+none            233G  171G   62G  74% /run/shm
+none            233G  171G   62G  74% /run/user
+tmpfs           233G  171G   62G  74% /sys/fs/cgroup
+C:\             233G  171G   62G  74% /mnt/c
+D:\             932G  843G   90G  91% /mnt/d
+
+du -sh /home:
+192K	/home
+
+du -h /home | sort -hr |head -n3:
+192K	/home/admin1
+192K	/home
+104K	/home/admin1/LR/1
